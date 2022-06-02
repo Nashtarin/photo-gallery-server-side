@@ -55,7 +55,7 @@ async function run(){
                 image:imageBuffer
             }
             const result = await photoCollection.insertOne(photoDetails);
-            res.json(resultgit init)
+            res.json(result)
 
         })
      
